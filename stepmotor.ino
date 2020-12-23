@@ -21,23 +21,63 @@ void loop() {
 //16000
   digitalWrite(dirPin, HIGH);
   // Spin the stepper motor 1 revolution slowly:
-  for (int i = 0; i < grau * 90; i++) { //incrementa de 1 em 1 até que chegue no angulo/rotação desejado... 1grau * (o angulo para girar).
+  for (int i = 0; i < grau * 1080; i++) { //incrementa de 1 em 1 até que chegue no angulo/rotação desejado... 1grau * (o angulo para girar).
     // These four lines result in 1 step:
     digitalWrite(pulsoPin, HIGH);
-    delayMicroseconds(1000);
+    delayMicroseconds(900);
     digitalWrite(pulsoPin, LOW);
-    delayMicroseconds(1000);
+    delayMicroseconds(900);
   }
   delay(2000);
-
-  digitalWrite(dirPin, LOW);
+  digitalWrite(dirPin, HIGH);
   // Spin the stepper motor 1 revolution slowly:
-  for (int i = 0; i < grau * 90; i++) {
+  for (int i = 0; i < grau * 1080; i++) { //incrementa de 1 em 1 até que chegue no angulo/rotação desejado... 1grau * (o angulo para girar).
     // These four lines result in 1 step:
     digitalWrite(pulsoPin, HIGH);
-    delayMicroseconds(1000);
+    delayMicroseconds(2000);
     digitalWrite(pulsoPin, LOW);
-    delayMicroseconds(1000);
+    delayMicroseconds(2000);
+  }
+  delay(2000);
+  digitalWrite(dirPin, HIGH);
+  // Spin the stepper motor 1 revolution slowly:
+  for (int i = 0; i < grau * 720; i++) { //incrementa de 1 em 1 até que chegue no angulo/rotação desejado... 1grau * (o angulo para girar).
+    // These four lines result in 1 step:
+    digitalWrite(pulsoPin, HIGH);
+    delayMicroseconds(10000);
+    digitalWrite(pulsoPin, LOW);
+    delayMicroseconds(10000);
+  }
+  delay(2000);
+  digitalWrite(dirPin, HIGH);
+  // Spin the stepper motor 1 revolution slowly:
+  for (int i = 0; i < grau * 360; i++) { //incrementa de 1 em 1 até que chegue no angulo/rotação desejado... 1grau * (o angulo para girar).
+    // These four lines result in 1 step:
+    digitalWrite(pulsoPin, HIGH);
+    delayMicroseconds(15000);
+    digitalWrite(pulsoPin, LOW);
+    delayMicroseconds(15000);
+  }
+  delay(2000);
+  digitalWrite(dirPin, HIGH);
+  // Spin the stepper motor 1 revolution slowly:
+  for (int i = 0; i < grau * 720; i++) { //incrementa de 1 em 1 até que chegue no angulo/rotação desejado... 1grau * (o angulo para girar).
+    // These four lines result in 1 step:
+    digitalWrite(pulsoPin, HIGH);
+    delayMicroseconds(5000);
+    digitalWrite(pulsoPin, LOW);
+    delayMicroseconds(5000);
   }
   delay(2000);
 }
+ /* digitalWrite(dirPin, LOW);
+  // Spin the stepper motor 1 revolution slowly:
+  for (int i = 0; i < grau * 180; i++) {
+    // These four lines result in 1 step:
+    digitalWrite(pulsoPin, HIGH);
+    delayMicroseconds(900);
+    digitalWrite(pulsoPin, LOW);
+    delayMicroseconds(900);
+  }
+  delay(2000);
+} */
