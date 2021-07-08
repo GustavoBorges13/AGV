@@ -1,7 +1,7 @@
 <img src="Imagens\Logos\HPE.png" align="center"
      width=20%
      height=20%>
- <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+ <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
 <img src="Imagens\Logos\marca SESI SENAI_azul.png" align="center"
      width=25%
      height=25%>
