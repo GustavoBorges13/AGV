@@ -1,7 +1,8 @@
-  /*RGB Color Sensor Demonstration
-  rgb-color-sensor-demo.ino
-  Read RGB values from Color Sensor
-  Must use calibration values from Color Sensor Calibration Sketch
+/*
+  Color Sensor Calibration
+  color-sensor-calib.ino
+  Calibrate RGB Color Sensor output Pulse Widths
+  Uses values obtained for RGB Sensor Demo sketch 
 
   DroneBot Workshop 2020
   https://dronebotworkshop.com
@@ -15,27 +16,11 @@
 #define S3 7
 #define sensorOut 8
 
-// Calibration Values
-// Get these from Calibration Sketch
-
-int redMin = 0; // Red minimum value
-int redMax = 0; // Red maximum value
-int greenMin = 0; // Green minimum value
-int greenMax = 0; // Green maximum value
-int blueMin = 0; // Blue minimum value
-int blueMax = 0; // Blue maximum value
-
 // Variables for Color Pulse Width Measurements
 
 int redPW = 0;
 int greenPW = 0;
 int bluePW = 0;
-
-// Variables for final Color values
-
-int redValue;
-int greenValue;
-int blueValue;
 
 void setup() {
 
@@ -48,7 +33,7 @@ void setup() {
   // Set Sensor output as input
   pinMode(sensorOut, INPUT);
   
-  // Set Frequency scaling to 20%
+  // Set Pulse Width scaling to 20%
   digitalWrite(S0,HIGH);
   digitalWrite(S1,LOW);
   
@@ -58,34 +43,28 @@ void setup() {
 
 void loop() {
   
-  // Read Red value
+  // Read Red Pulse Width
   redPW = getRedPW();
-  // Map to value from 0-255
-  redValue = map(redPW, redMin,redMax,255,0);
   // Delay to stabilize sensor
   delay(200);
   
-  // Read Green value
+  // Read Green Pulse Width
   greenPW = getGreenPW();
-  // Map to value from 0-255
-  greenValue = map(greenPW, greenMin,greenMax,255,0);
   // Delay to stabilize sensor
   delay(200);
   
-  // Read Blue value
+  // Read Blue Pulse Width
   bluePW = getBluePW();
-  // Map to value from 0-255
-  blueValue = map(bluePW, blueMin,blueMax,255,0);
   // Delay to stabilize sensor
   delay(200);
   
   // Print output to Serial Monitor
-  Serial.print("Red = ");
-  Serial.print(redValue);
-  Serial.print(" - Green = ");
-  Serial.print(greenValue);
-  Serial.print(" - Blue = ");
-  Serial.println(blueValue);
+  Serial.print("Red PW = ");
+  Serial.print(redPW);
+  Serial.print(" - Green PW = ");
+  Serial.print(greenPW);
+  Serial.print(" - Blue PW = ");
+  Serial.println(bluePW);
   
 }
 
