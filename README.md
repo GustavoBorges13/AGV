@@ -21,7 +21,7 @@ Instruções
 - Program_1: programação para testar a buzina do veículo.
 - Program_2: programação para demonstração do sistema de segurança por meio do sensor ultrassônico.
 - Program_3: programação para realizar testes nos novos sensores ultrassôicos.
-- Program_4: não foi feito ainda.
+- Program_4: programação com 7 sensores ultrassônicos instalados (ATUAL).
 
 Atualizações
 1.0 -> Estudo sobre sensores ultrassonicos e relés. Data: indefined. <br/> 
@@ -30,4 +30,6 @@ Atualizações
 1.3 -> Estudo sobre os controladores de motor de passo, e também realização de uma programação para controlar a rotação, velocidade e tempo do motor de passo. Data: indefined. <br/> 
 1.4 -> Estudo sobre os sensores ultrassonicos JSN-SR04P. Data: indefined. <br/> 
 1.5 -> Realização de testes do sensor de cor TS3200. Data: 08/07/2021. <br/> 
-
+2.1 -> Programação com novos sensores (total 7).
+2.2 -> Controle da navegação através do motor de passo e sensor de cor.
+2.3 -> Realizamento da programação com sensores de cor para testar o seguidor de linha na ausência do sensor magnético.
