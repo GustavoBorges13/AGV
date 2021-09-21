@@ -59,7 +59,7 @@ int count = 0; //  Contador de passos
 // boolean setdir = LOW; Altera o sentido | HIGH --> sentido anti-horário and LOW --> sentido horário
 float rotacao = 1.0 / 360; // Define a quantidade de rotações do motor | Regra de três: Exemplo: Para girar 90º - Dividimos 90/360 = 0.25
 double revolution = 400 * rotacao; //Precisão escolhida no Driver |
-int speed = 2000; // Velocidade do motor, valores menores --> velocidade maior
+int speed = 1000; // Velocidade do motor, valores menores --> velocidade maior
 
 //#define indutivo 10
 
@@ -153,7 +153,7 @@ void loop() {
 
   //PRETO
   if (redValue <= 100 && greenValue <= 70 && blueValue <= 70) {
-    for (int count = 0; count <= revolution * 30; count++) {
+    for (int count = 0; count <= revolution * 20; count++) {
       digitalWrite(driverDIR, HIGH);
       digitalWrite(driverPUL, HIGH);
       delayMicroseconds(speed);
@@ -163,7 +163,7 @@ void loop() {
   }
   //PRETO
   if (redValue_2 <= 100 && greenValue_2 <= 70 && blueValue_2 <= 70) {
-    for (int count = 0; count <= revolution * 30; count++) {
+    for (int count = 0; count <= revolution * 20; count++) {
       digitalWrite(driverDIR, LOW);
       digitalWrite(driverPUL, HIGH);
       delayMicroseconds(speed);
