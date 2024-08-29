@@ -17,6 +17,16 @@
 </p>
 
 
+```diff
++ Programação para controlar o Motor de Passo NEMA 42 com Driver 2DM2280.
+# Projeto: AGV (Veículo Guiado Automaticamente)
+# Parceria: HPE Automotores Ltda do Brasil / Unidade Integrada SESI SENAI Catalão
+# Gestão: Sr. Edenilson Ducatti, Sra. Luzia Juana, Sr. André Machado e Sra. Aliana Dias e Arley Gon.
+# Corpo Técnico: Arley Gonçalves, Alcione Borges, Bruna Lays, Maycon Lima, Edir Macedo, Gustavo Borges e Gabriel Henrique.
+```
+
+'''
+
 Instruções
 - Program_1: programação para testar a buzina do veículo.
 - Program_2: programação para demonstração do sistema de segurança por meio do sensor ultrassônico.
