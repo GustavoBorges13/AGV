@@ -21,7 +21,8 @@ Instruções
 - Program_1: programação para testar a buzina do veículo.
 - Program_2: programação para demonstração do sistema de segurança por meio do sensor ultrassônico.
 - Program_3: programação para realizar testes nos novos sensores ultrassôicos.
-- Program_4: programação com 7 sensores ultrassônicos instalados (ATUAL).
+- Program_4: programação com 7 sensores ultrassônicos instalados.
+- Motor_sensor: programacao final disponivel [aqui](https://github.com/GustavoBorges13/AGV/blob/main/Programa%C3%A7%C3%B5es/Motor_Sensor/Motor_Sensor.ino).
 
 Atualizações
 1.0 -> Estudo sobre sensores ultrassonicos e relés. Data: indefined. <br/> 
