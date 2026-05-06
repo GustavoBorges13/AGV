@@ -36,13 +36,13 @@ Instruções
 - Program_5: programação final com PID para controle de movimentos, ajustes de erros e reducao de ruido pra suavizar movimentos [aqui](https://github.com/GustavoBorges13/AGV/blob/main/Programa%C3%A7%C3%B5es/Program_5/Program_5.ino).
 
 Atualizações
-1.0 -> Estudo sobre sensores ultrassonicos e relés. Data: indefined. <br/> 
-1.1 -> Realização da programação dos relés que controlam a buzina do veículo. Data: indefined. <br/> 
-1.2 -> Realização da programação da demonstração do sistema de segurança do veículo atraves de sensores e marchas para frente e trás. Data: indefined. <br/> 
-1.3 -> Estudo sobre os controladores de motor de passo, e também realização de uma programação para controlar a rotação, velocidade e tempo do motor de passo. Data: indefined. <br/> 
-1.4 -> Estudo sobre os sensores ultrassonicos JSN-SR04P. Data: indefined. <br/> 
-1.5 -> Realização de testes do sensor de cor TS3200. Data: 08/07/2021. <br/> 
-2.1 -> Programação com novos sensores (total 7).
-2.2 -> Controle da navegação através do motor de passo e sensor de cor.
-2.3 -> Realizamento da programação com sensores de cor para testar o seguidor de linha na ausência do sensor magnético.
-2.4 -> Anexado o codigo com PID.
+- 1.0 -> Estudo sobre sensores ultrassonicos e relés. Data: indefined. <br/> 
+- 1.1 -> Realização da programação dos relés que controlam a buzina do veículo. Data: indefined. <br/> 
+- 1.2 -> Realização da programação da demonstração do sistema de segurança do veículo atraves de sensores e marchas para frente e trás. Data: indefined. <br/> 
+- 1.3 -> Estudo sobre os controladores de motor de passo, e também realização de uma programação para controlar a rotação, velocidade e tempo do motor de passo. Data: indefined. <br/> 
+- 1.4 -> Estudo sobre os sensores ultrassonicos JSN-SR04P. Data: indefined. <br/> 
+- 1.5 -> Realização de testes do sensor de cor TS3200. Data: 08/07/2021. <br/> 
+- 2.1 -> Programação com novos sensores (total 7).
+- 2.2 -> Controle da navegação através do motor de passo e sensor de cor.
+- 2.3 -> Realizamento da programação com sensores de cor para testar o seguidor de linha na ausência do sensor magnético.
+- 2.4 -> Anexado o codigo com PID.
