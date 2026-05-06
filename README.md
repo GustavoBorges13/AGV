@@ -45,3 +45,4 @@ Atualizações
 2.1 -> Programação com novos sensores (total 7).
 2.2 -> Controle da navegação através do motor de passo e sensor de cor.
 2.3 -> Realizamento da programação com sensores de cor para testar o seguidor de linha na ausência do sensor magnético.
+2.4 -> Anexado o codigo com PID.
