@@ -32,7 +32,8 @@ Instruções
 - Program_2: programação para demonstração do sistema de segurança por meio do sensor ultrassônico.
 - Program_3: programação para realizar testes nos novos sensores ultrassôicos.
 - Program_4: programação com 7 sensores ultrassônicos instalados.
-- Motor_sensor: programacao final disponivel [aqui](https://github.com/GustavoBorges13/AGV/blob/main/Programa%C3%A7%C3%B5es/Motor_Sensor/Motor_Sensor.ino).
+- Motor_sensor: programação simples pra testes sem PID [aqui](https://github.com/GustavoBorges13/AGV/blob/main/Programa%C3%A7%C3%B5es/Motor_Sensor/Motor_Sensor.ino).
+- Program_5: programação final com PID para controle de movimentos, ajustes de erros e reducao de ruido pra suavizar movimentos [aqui](https://github.com/GustavoBorges13/AGV/blob/main/Programa%C3%A7%C3%B5es/Program_5/Program_5.ino).
 
 Atualizações
 1.0 -> Estudo sobre sensores ultrassonicos e relés. Data: indefined. <br/> 
